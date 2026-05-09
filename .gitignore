@@ -1,0 +1,51 @@
+# Dataset files
+*.parquet
+*.arrow
+*.csv
+*.json
+*.jsonl
+datasets/
+data/
+__pycache__/
+
+# HuggingFace cache
+.cache/
+*.hf/
+huggingface_datasets/
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and artifacts
+models/
+checkpoints/
+results/
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
